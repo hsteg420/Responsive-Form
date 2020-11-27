@@ -1,0 +1,83 @@
+<html>
+<link rel="stylesheet" href="stylesheet2.css">
+<div class="container">
+  <header class="header">
+    <h1 id="title" class="text-center"> KBC Registration</h1>
+    <p id="description" class="description text-center">
+      Jawaab dene ka Waqt aa gaya hai
+    </p>
+</header>
+<form id="Survey Form">
+   <div class="Form-Group">
+   <label id="name-label" for="name"> Name</label>
+<input
+type="text"
+name="name"
+id="name"
+class="form-control"
+placeholder="Enter your name"
+required
+/>
+</div>
+<div class="Form-Group">
+ <label id="email-label" for ="email">Email</label>
+<input
+type="email"
+name="email"
+id="email"
+class="form-control"
+placeholder="Enter your Email"
+required
+/>
+</div>
+<div class="form-group">
+ <label id="number-label" for="number"> Age</label>
+<input
+type="number"
+name="age"
+id="number"
+min="18"
+max="90"
+class="form-control"
+placeholder="Age"
+/>
+</div>
+
+<div class="form-group">
+ <p> 
+Which option best describes your current role?
+</p>
+<select id="dropdown" name="role" class="form-control" required>
+ <option disabled selected value>Select current role</option>
+ <option value="student">Student</option>
+ <option value="self-employed">Self-Employed</option>
+ <option value="government-service">Government Service</option>
+ <option value="retired">Retired</option>
+ <option value="other">Other</option>
+ </select>
+</div>
+<div class="form-group">
+<p>
+ Gender
+</p>
+ <select id="most-like" name="mostLike" class="form-control" required>
+ <option enabled selected value>Select gender</option>
+ <option value="male">Male</option>
+ <option value="female">Female</option>
+ <option value="other">Other</option>
+</select>
+</div>
+<div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+<p id="description" class="description text-center">
+Thank you for filling the form. You will hear out from us soon.
+</p>
+  </form>
+</div>
+</html>
+
+
+
